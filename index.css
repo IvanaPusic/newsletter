@@ -41,14 +41,18 @@ body {
 }
 
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
   margin-top: 1.56rem;
 }
 
+button {
+  border: none;
+  outline: none;
+}
 .scroll-container {
+  overflow-x: scroll;
   width: 100%;
-  overflow-x: auto;
 }
 
 table {
@@ -276,7 +280,7 @@ button,
 
 .text {
   border: 1px solid var(--clr-secondary);
-  width: 47.5625rem;
+  min-width: 47.5625rem;
   height: 19.9375rem;
   margin-left: 21.25rem;
   margin-right: 21.19rem;
@@ -314,4 +318,8 @@ button,
   height: 4.375rem;
   color: var(--clr-primary);
   font-size: 1.25rem;
+}
+
+/* media queries  */
+@media (max-width: 650px) {
 }
