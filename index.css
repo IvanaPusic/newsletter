@@ -319,7 +319,3 @@ button,
   color: var(--clr-primary);
   font-size: 1.25rem;
 }
-
-/* media queries  */
-@media (max-width: 650px) {
-}
